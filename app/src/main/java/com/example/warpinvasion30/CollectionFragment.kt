@@ -6,25 +6,26 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-
-class ProfileFragment : Fragment() {
+class CollectionFragment : Fragment() {
+    private lateinit var viewOfLayout: View
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        viewOfLayout = inflater.inflate(R.layout.fragment_collection, container, false)
 
-        return inflater.inflate(R.layout.fragment_profile, container, false)
+        return viewOfLayout
     }
 
 
     companion object {
-        fun newInstance(): ProfileFragment {
+        fun newInstance(): CollectionFragment {
 
 //            val args = Bundle()
 //            args.putString("numeVoluntar", numeVoluntar)
 //            args.putInt("pozitie", pozitie)
-          val fragment = ProfileFragment()
+            val fragment = CollectionFragment()
 //            fragment.arguments = args
             return fragment
         }
