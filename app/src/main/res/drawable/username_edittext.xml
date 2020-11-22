@@ -5,7 +5,7 @@
 
     <corners android:radius="80dp"/>
     <stroke
-        android:width="3dp"
+        android:width="1.5dp"
         android:color="@color/gradientColorTwo"
         />
 </shape>

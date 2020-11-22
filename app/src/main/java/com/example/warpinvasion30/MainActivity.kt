@@ -14,12 +14,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val fragmentFirst = ProfileFragment.newInstance()
 
+        menu_bottom.setItemSelected(R.id.profile, true)
+        val fragmentFirst = ProfileFragment.newInstance()
         val manager: FragmentManager = supportFragmentManager
         val transaction: FragmentTransaction = manager.beginTransaction()
         transaction.add(R.id.linear_layout_container, fragmentFirst)
         transaction.commit()
+
 
         menu_bottom.setOnItemSelectedListener { id ->
 

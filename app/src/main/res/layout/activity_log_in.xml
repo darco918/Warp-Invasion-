@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroundColor"
+    android:background="@color/colorBackgroundPrimary"
     tools:context=".LogInActivity">
 
     <ImageView
@@ -14,8 +14,8 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         android:src="@drawable/wp"
-        android:layout_marginTop="80dp"
-        android:contentDescription="TODO" />
+        android:layout_marginTop="30dp"
+        android:contentDescription="WP logo" />
     <EditText
         android:id="@+id/username"
         android:layout_width="0dp"
@@ -65,15 +65,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginStart="240dp"
+        android:layout_marginStart="190dp"
         android:layout_marginBottom="50dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="30dp"
         android:background="@drawable/next_button"
         android:text="Next"
         android:textAllCaps="false"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        android:textSize="26sp"
+        android:textColor="#FAFAFA"
+        android:textSize="22sp"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
