@@ -17,12 +17,28 @@
         android:layout_marginTop="30dp"
         android:contentDescription="WP logo" />
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:src="@drawable/darco_murja"
+        android:maxWidth="80dp"
+        android:maxHeight="80dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:civ_border_width="1dp"
+        android:layout_marginTop="135dp"
+        android:elevation="10dp"
+        android:layout_marginStart="@dimen/marginStartProfile"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:contentDescription="@string/profile_image" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="175dp"
         android:background="@drawable/container_background">
+
 
         <TextView
             android:id="@+id/playerName"
@@ -42,9 +58,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Level 14"
-            android:textColor="#8B37F8"
+            android:textColor="#412DF2"
             android:textSize="20sp"
-            android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@+id/playerName"
             app:layout_constraintLeft_toLeftOf="parent"
             android:layout_marginTop="20dp"
