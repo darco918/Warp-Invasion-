@@ -15,7 +15,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:src="@drawable/wp"
         android:layout_marginTop="30dp"
-        android:contentDescription="WP logo" />
+        android:contentDescription="@string/wp_logo" />
+
     <EditText
         android:id="@+id/username"
         android:layout_width="0dp"
