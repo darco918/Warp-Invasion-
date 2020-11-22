@@ -15,7 +15,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:src="@drawable/wp"
         android:layout_marginTop="30dp"
-        android:contentDescription="WP logo" />
+        android:contentDescription="@string/wp_logo" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profileImage"
@@ -44,7 +44,7 @@
             android:id="@+id/playerName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gamertag Name"
+            android:text="@string/gamertag_name"
             android:textColor="@color/textColorLight"
             android:textSize="27sp"
             app:layout_constraintTop_toTopOf="parent"
@@ -57,7 +57,7 @@
             android:id="@+id/playerLevel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Level 14"
+            android:text="@string/level_14"
             android:textColor="#412DF2"
             android:textSize="20sp"
             app:layout_constraintTop_toBottomOf="@+id/playerName"
