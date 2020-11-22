@@ -3,15 +3,23 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="colorBackgroundPrimary">#000</color>
+    <color name="colorContainerBackground">#151515</color>
 
-    <color name="bottomNavigationBackground">#fff</color>
+    <color name="bottomNavigationBackground">#3A3A3A</color>
     <color name="unselectedIcon">#686868</color>
-    <color name="colorIcons">#03DAC5</color>
+    <color name="colorIcons">#fff</color>
     <color name="backgroundColor">#000000</color>
     <color name="gradientColorOne">#376BE7</color>
     <color name="gradientColorTwo">#CA00D8</color>
-    <color name="textColorLight">#D4D4D4</color>
     <color name="gradientTwoColorOne">#FFA7DF</color>
     <color name="gradientTwoColorTwo">#F8F41C</color>
+
+    <color name="cardBackgroundLight">#6C6C6C</color>
+
+
+
+    <color name="textColorLight">#D4D4D4</color>
+    <color name="textColorDarker">#2F2F2F</color>
 
 </resources>

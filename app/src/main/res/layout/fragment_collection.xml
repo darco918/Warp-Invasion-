@@ -1,15 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorIcons"
+    android:background="@color/colorBackgroundPrimary"
     tools:context=".CollectionFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55dp"
+        android:gravity="center"
+        android:text="Collection"
+        android:textColor="@color/textColorLight"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/container" />
 
-</FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="175dp"
+        android:background="@drawable/container_background">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/weaponsSkinsCardView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="@dimen/marginButtonsFromCollection"
+            android:layout_marginTop="@dimen/distanceButtonsFromCollection"
+            android:layout_marginEnd="@dimen/marginButtonsFromCollection"
+            app:cardBackgroundColor="@color/cardBackgroundLight"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="50dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/marginStartIconCardview"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/ic_sniper_rifle"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:text="Weapons skins"
+                    android:textColor="@color/textColorDarker"
+                    android:textSize="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <!--        Character skins cardview-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/characterSkinsCardView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="@dimen/marginButtonsFromCollection"
+            android:layout_marginTop="@dimen/distanceButtonsFromCollection"
+            android:layout_marginEnd="@dimen/marginButtonsFromCollection"
+            app:cardBackgroundColor="@color/cardBackgroundLight"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="50dp"
+            app:layout_constraintTop_toBottomOf="@+id/weaponsSkinsCardView">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/marginStartIconCardview"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/ic_soldier"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:text="Character skins"
+                    android:textColor="@color/textColorDarker"
+                    android:textSize="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--        Special Modes cardview-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/specialModesCardView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="@dimen/marginButtonsFromCollection"
+            android:layout_marginTop="@dimen/distanceButtonsFromCollection"
+            android:layout_marginEnd="@dimen/marginButtonsFromCollection"
+            app:cardBackgroundColor="@color/cardBackgroundLight"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="50dp"
+            app:layout_constraintTop_toBottomOf="@+id/characterSkinsCardView">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/marginStartIconCardview"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/ic_special_modes"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:text="Special Modes"
+                    android:textColor="@color/textColorDarker"
+                    android:textSize="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
