@@ -10,7 +10,7 @@ class SettingsActivity : AppCompatActivity() {
         setContentView(R.layout.activity_settings)
 
         val cardviewInstagram = findViewById<androidx.cardview.widget.CardView>(R.id.cardviewInstagram)
-        cardviewInstagram.setOnClickListener(){
+        cardviewInstagram.setOnClickListener{
 
             val url = "https://www.instagram.com/darco_paul/"
             val intent = Intent(Intent.ACTION_VIEW)
@@ -19,7 +19,7 @@ class SettingsActivity : AppCompatActivity() {
         }
 
         val cardviewTwitter = findViewById<androidx.cardview.widget.CardView>(R.id.cardviewTwitter)
-        cardviewTwitter.setOnClickListener(){
+        cardviewTwitter.setOnClickListener{
 
             val url = "https://twitter.com"
             val intent = Intent(Intent.ACTION_VIEW)

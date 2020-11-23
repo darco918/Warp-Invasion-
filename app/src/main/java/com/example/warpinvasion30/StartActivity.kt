@@ -10,7 +10,7 @@ class StartActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_start)
 
-        loginButton.setOnClickListener(){
+        loginButton.setOnClickListener {
             startActivity(Intent(this, LogInActivity::class.java))
         }
     }

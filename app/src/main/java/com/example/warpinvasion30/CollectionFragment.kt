@@ -35,9 +35,8 @@ class CollectionFragment : Fragment() {
 //            val args = Bundle()
 //            args.putString("numeVoluntar", numeVoluntar)
 //            args.putInt("pozitie", pozitie)
-            val fragment = CollectionFragment()
-//            fragment.arguments = args
-            return fragment
+            //            fragment.arguments = args
+            return CollectionFragment()
         }
 
     }

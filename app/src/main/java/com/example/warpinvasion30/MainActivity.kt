@@ -1,8 +1,6 @@
 package com.example.warpinvasion30
 
-import android.R.attr
 import android.os.Bundle
-import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction

@@ -1,16 +1,11 @@
 package com.example.warpinvasion30
 
-import android.R
-import android.content.DialogInterface
+
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ImageButton
-import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.fragment_profile.*
 
@@ -25,7 +20,7 @@ class ProfileFragment : Fragment() {
 
     ): View? {
 
-        viewOfLayout = inflater.inflate(com.example.warpinvasion30.R.layout.fragment_profile, container, false)
+        viewOfLayout = inflater.inflate(R.layout.fragment_profile, container, false)
 
         return viewOfLayout
 
@@ -42,8 +37,7 @@ class ProfileFragment : Fragment() {
     }
     companion object {
         fun newInstance(): ProfileFragment {
-          val fragment = ProfileFragment()
-            return fragment
+            return ProfileFragment()
         }
     }
 
