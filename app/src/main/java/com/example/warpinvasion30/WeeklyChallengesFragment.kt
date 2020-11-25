@@ -41,7 +41,7 @@ class WeeklyChallengesFragment : Fragment(){
         }
 
 
-        var j = 100
+        val j = 100
         val progressText = j.toString() + " %"
         progressBarText.text = progressText
         progressBar.progress = j
