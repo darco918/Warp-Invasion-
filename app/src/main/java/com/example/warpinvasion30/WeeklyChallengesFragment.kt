@@ -1,12 +1,16 @@
 package com.example.warpinvasion30
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import kotlinx.android.synthetic.main.fragment_profile.*
+import android.widget.ProgressBar
+import android.widget.TextView
+import androidx.fragment.app.Fragment
+import kotlinx.android.synthetic.main.fragment_profile.settingsButton
+import kotlinx.android.synthetic.main.fragment_weekly_challenges.*
 
 
 class WeeklyChallengesFragment : Fragment(){
@@ -27,6 +31,7 @@ class WeeklyChallengesFragment : Fragment(){
 
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -34,5 +39,13 @@ class WeeklyChallengesFragment : Fragment(){
             val intent = Intent (activity, SettingsActivity::class.java)
             startActivity(intent)
         }
+
+
+        var j = 100
+        val progressText = j.toString() + " %"
+        progressBarText.text = progressText
+        progressBar.progress = j
+
+
     }
 }
