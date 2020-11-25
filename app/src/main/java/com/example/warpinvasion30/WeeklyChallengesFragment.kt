@@ -47,5 +47,7 @@ class WeeklyChallengesFragment : Fragment(){
         progressBar.progress = j
 
 
+        progressBarChallenge.progress = 50
+
     }
 }

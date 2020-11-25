@@ -21,5 +21,6 @@
 
     <color name="textColorLight">#D4D4D4</color>
     <color name="textColorDarker">#2F2F2F</color>
+    <color name="green">#009E19</color>
 
 </resources>
