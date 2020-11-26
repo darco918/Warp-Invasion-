@@ -14,13 +14,10 @@
     <color name="gradientColorTwo">#8209EB</color>
     <color name="gradientTwoColorOne">#FF86C1</color>
     <color name="gradientTwoColorTwo">#FFE23E</color>
-
     <color name="cardBackgroundLight">#6C6C6C</color>
-
-
-
+    <color name="recyclerItemBackground">#1B1B1B</color>
     <color name="textColorLight">#D4D4D4</color>
     <color name="textColorDarker">#2F2F2F</color>
-    <color name="green">#009E19</color>
+    <color name="green">#1DFF40</color>
 
 </resources>

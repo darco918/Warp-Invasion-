@@ -2,9 +2,12 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="110dp"
-    android:background="@color/cardview_dark_background"
+    android:background="@drawable/recycleview_card_background"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_marginTop="15dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
     android:gravity="center">
 
             <TextView
@@ -24,9 +27,10 @@
                 style="?android:attr/progressBarStyleHorizontal"
                 android:layout_width="225dp"
                 android:progress="50"
-                android:layout_height="wrap_content"
+                android:layout_height="10dp"
                 android:layout_marginStart="@dimen/marginStartChallengesCardview"
                 android:layout_marginTop="40dp"
+                android:progressDrawable="@drawable/progress_bar_horizontal"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
