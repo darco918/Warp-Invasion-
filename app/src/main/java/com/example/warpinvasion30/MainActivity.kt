@@ -27,21 +27,21 @@ class MainActivity : AppCompatActivity() {
                 R.id.profile -> {
                     val fragment = ProfileFragment()
                     supportFragmentManager.beginTransaction()
-                        .replace(R.id.linear_layout_container, fragment, fragment.javaClass.getSimpleName())
+                        .replace(R.id.linear_layout_container, fragment, fragment.javaClass.simpleName)
                         .commit()
                 }
 
                 R.id.challenges -> {
                     val fragment = WeeklyChallengesFragment()
                     supportFragmentManager.beginTransaction()
-                        .replace(R.id.linear_layout_container, fragment, fragment.javaClass.getSimpleName())
+                        .replace(R.id.linear_layout_container, fragment, fragment.javaClass.simpleName)
                         .commit()
                 }
 
                 R.id.collection -> {
                     val fragment = CollectionFragment()
                     supportFragmentManager.beginTransaction()
-                        .replace(R.id.linear_layout_container, fragment, fragment.javaClass.getSimpleName())
+                        .replace(R.id.linear_layout_container, fragment, fragment.javaClass.simpleName)
                         .commit()
                 }
 
