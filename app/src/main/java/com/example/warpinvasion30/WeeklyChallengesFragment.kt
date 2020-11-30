@@ -30,8 +30,6 @@ class WeeklyChallengesFragment : Fragment(){
 
         return inflater.inflate(R.layout.fragment_weekly_challenges, container, false)
 
-
-
     }
 
     companion object {

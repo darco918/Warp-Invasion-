@@ -30,8 +30,7 @@ class ProfileFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         settingsButton.setOnClickListener {
-            //FirebaseAuth.getInstance().signOut()
-            val intent = Intent (activity, RecyclerviewTestActivity::class.java)
+            val intent = Intent (activity, RewardsActivity::class.java)
             startActivity(intent)
         }
     }
