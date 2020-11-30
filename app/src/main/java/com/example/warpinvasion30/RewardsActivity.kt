@@ -7,7 +7,6 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import kotlinx.android.synthetic.main.activity_rewards.*
 import me.relex.circleindicator.CircleIndicator
-import me.relex.circleindicator.CircleIndicator3
 
 class RewardsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
