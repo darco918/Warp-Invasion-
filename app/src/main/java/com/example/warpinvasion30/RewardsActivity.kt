@@ -6,9 +6,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import kotlinx.android.synthetic.main.activity_rewards.*
+import me.relex.circleindicator.CircleIndicator
 import me.relex.circleindicator.CircleIndicator3
-
-
 
 class RewardsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,8 +20,8 @@ class RewardsActivity : AppCompatActivity() {
         adapter.addFragment(CharactersPageFragment(), "One")
 
         viewPager.adapter = adapter
-//        val indicator  = findViewById<CircleIndicator3>(R.id.indicator)
-//        indicator.setViewPager(viewPager)
+        val indicator  = findViewById<CircleIndicator>(R.id.indicator)
+        indicator.setViewPager(viewPager)
 
     }
 

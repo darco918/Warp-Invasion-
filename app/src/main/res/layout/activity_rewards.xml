@@ -7,11 +7,11 @@
     tools:context=".RewardsActivity"
     android:orientation="vertical">
 
-    <me.relex.circleindicator.CircleIndicator3
+    <me.relex.circleindicator.CircleIndicator
         android:id="@+id/indicator"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:background="#1e88e5"
+        android:background="@color/bottomNavigationBackground"
         app:layout_constraintBottom_toBottomOf="parent"
        />
 
@@ -20,5 +20,7 @@
         app:layout_constraintBottom_toTopOf="@+id/indicator"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-         />
+        android:layout_marginBottom="48dp"
+        android:elevation="10dp"         />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
