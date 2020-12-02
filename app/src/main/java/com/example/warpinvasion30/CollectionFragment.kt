@@ -26,8 +26,22 @@ class CollectionFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         settingsButton.setOnClickListener {
-            //FirebaseAuth.getInstance().signOut()
             val intent = Intent (activity, SettingsActivity::class.java)
+            startActivity(intent)
+        }
+
+        weaponsLayout.setOnClickListener {
+            val intent = Intent (activity, RewardsActivity::class.java)
+            startActivity(intent)
+        }
+
+        characterSkinsLayout.setOnClickListener {
+            val intent = Intent (activity, RewardsActivity::class.java)
+            startActivity(intent)
+        }
+
+        specialModesLayout.setOnClickListener {
+            val intent = Intent (activity, RewardsActivity::class.java)
             startActivity(intent)
         }
 
