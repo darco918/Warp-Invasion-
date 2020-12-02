@@ -17,10 +17,12 @@
     <string name="_2d_15h_33h">2d 15h 33h</string>
     <string name="_5_10">5/10</string>
     <string name="_0_1">0/1</string>
-    <string name="special_modes">Special Modes</string>
     <string name="snowflake">snowflake</string>
     <string name="no_gravity_mode">No Gravity Mode</string>
     <string name="modes_available_for">Modes available for:</string>
     <string name="_2d_12h_9m">2d 12h 9m</string>
+    <string name="weapons_skins">Weapons Skins</string>
+    <string name="character_skins">Character Skins</string>
+    <string name="special_modes">Special Modes</string>
 
 </resources>

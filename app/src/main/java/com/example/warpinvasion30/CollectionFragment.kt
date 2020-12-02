@@ -32,48 +32,21 @@ class CollectionFragment : Fragment() {
 
         weaponsLayout.setOnClickListener {
             val intent = Intent (activity, RewardsActivity::class.java)
-            startActivity(intent)
-        }
-
-        characterSkinsLayout.setOnClickListener {
-            val intent = Intent (activity, RewardsActivity::class.java)
+            intent.putExtra("pageNumber", 1)
             startActivity(intent)
         }
 
         specialModesLayout.setOnClickListener {
             val intent = Intent (activity, RewardsActivity::class.java)
+            intent.putExtra("pageNumber", 2)
             startActivity(intent)
         }
 
-        weaponsSkinsCardView.setOnTouchListener(object : OnSwipeTouchListener(activity) {
-            override fun onSwipeLeft() {
-                super.onSwipeLeft()
-                Toast.makeText(activity, "Swipe Left gesture detected",
-                    Toast.LENGTH_SHORT)
-                    .show()
-            }
-
-            override fun onSwipeRight() {
-                super.onSwipeRight()
-                Toast.makeText(
-                    activity,
-                    "Swipe Right gesture detected",
-                    Toast.LENGTH_SHORT
-                ).show()
-            }
-
-            override fun onSwipeUp() {
-                super.onSwipeUp()
-                Toast.makeText(activity, "Swipe up gesture detected", Toast.LENGTH_SHORT)
-                    .show()
-            }
-
-            override fun onSwipeDown() {
-                super.onSwipeDown()
-                Toast.makeText(activity, "Swipe down gesture detected", Toast.LENGTH_SHORT)
-                    .show()
-            }
-        })
+        characterSkinsLayout.setOnClickListener {
+            val intent = Intent (activity, RewardsActivity::class.java)
+            intent.putExtra("pageNumber", 3)
+            startActivity(intent)
+        }
 
 
     }
