@@ -13,12 +13,6 @@ import androidx.recyclerview.widget.RecyclerView
 
 class WeaponsPageFragment : Fragment() {
 
-    val  values = arrayOf("Assault Rifle", "Sniper Rifle", "Pistol", "Pedro","Assault Rifle", "Sniper Rifle", "Pistol", "Pedro","Assault Rifle", "Sniper Rifle", "Pistol", "Pedro")
-
-    private lateinit var recyclerView: RecyclerView
-    private lateinit var manager: RecyclerView.LayoutManager
-    private lateinit var myAdapter: RecyclerView.Adapter<*>
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
