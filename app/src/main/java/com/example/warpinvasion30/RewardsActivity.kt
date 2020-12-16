@@ -18,14 +18,13 @@ class RewardsActivity : AppCompatActivity() {
         adapter.addFragment(SpecialModesPageFragment(), "Two")
         adapter.addFragment(CharactersPageFragment(), "One")
 
-        val intent = getIntent()
+        val intent = intent
         val pageNumber = intent.getIntExtra("pageNumber", 1)
 
         viewPager.adapter = adapter
         viewPager.currentItem = pageNumber - 1
         val indicator  = findViewById<CircleIndicator>(R.id.indicator)
         indicator.setViewPager(viewPager)
-
     }
 
     class MyViewPagerAdapter(manager: FragmentManager) : FragmentPagerAdapter(manager) {

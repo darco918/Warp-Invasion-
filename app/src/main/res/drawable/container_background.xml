@@ -2,13 +2,15 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:bottom="-1dp">
-    <shape>
-        <corners
-            android:topRightRadius="30dp"
-            android:topLeftRadius="30dp"/>
-        <solid android:color="@color/colorContainerBackground"  />
-        <stroke android:width="0.2dp" android:color="@color/bottomNavigationBackground" />
-    </shape>
-</item>
+        <shape>
+            <corners
+                android:topLeftRadius="30dp"
+                android:topRightRadius="30dp" />
+            <solid android:color="@color/colorContainerBackground" />
+            <stroke
+                android:width="0.2dp"
+                android:color="#434343" />
+        </shape>
+    </item>
 
 </layer-list>

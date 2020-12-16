@@ -10,16 +10,17 @@
     <me.relex.circleindicator.CircleIndicator
         android:id="@+id/indicator"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="40dp"
         app:ci_width="5dp"
         app:ci_height="5dp"
         app:ci_drawable_unselected="@color/colorBackgroundPrimary"
-        android:background="@color/bottomNavigationBackground"
+        android:background="#1C1C25"
         app:layout_constraintBottom_toBottomOf="parent"
        />
+
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPager"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="40dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toTopOf="@+id/indicator"

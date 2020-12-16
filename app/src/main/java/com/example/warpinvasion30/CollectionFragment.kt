@@ -7,6 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.viewpager.widget.ViewPager
+import kotlinx.android.synthetic.main.activity_rewards2.*
 import kotlinx.android.synthetic.main.fragment_collection.*
 import kotlinx.android.synthetic.main.fragment_profile.settingsButton
 
@@ -47,7 +49,6 @@ class CollectionFragment : Fragment() {
             intent.putExtra("pageNumber", 3)
             startActivity(intent)
         }
-
 
     }
     companion object {
