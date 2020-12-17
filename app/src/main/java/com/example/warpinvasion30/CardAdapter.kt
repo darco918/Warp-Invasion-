@@ -19,22 +19,18 @@ class CardAdapter(private  val context:Context, private val myModelArrayList: Ar
     }
 
     override fun getCount(): Int {
-return myModelArrayList.size
+        return myModelArrayList.size
     }
 
     override fun instantiateItem(container: ViewGroup, position: Int): Any {
 
-       val view = LayoutInflater.from(context).inflate(R.layout.card_item,container, false)
+        val view = LayoutInflater.from(context).inflate(R.layout.card_item,container, false)
 
         val model = myModelArrayList[position]
         val title = model.title
         val description = model.description
         val image = model.image
         val date = model.date
-
-
-
-
 
         view.bannerIv.setImageResource(image)
         view.titleTv.text= title
@@ -70,15 +66,7 @@ return myModelArrayList.size
             "Nuketown 2020", R.drawable.ic_sniper_rifle))
 
         listview.adapter = WeaponsListviewAdapter(view.context,R.layout.weapons_list_item,  list)
-       // Utility.setListViewHeightBasedOnChildren(listview)
-
-
-
-
-
         container.addView(view, position)
-
-
         return view
     }
 

@@ -1,5 +1,6 @@
 package com.example.warpinvasion30
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
@@ -38,11 +39,13 @@ class MainActivity : AppCompatActivity() {
                         .commit()
                 }
 
-                R.id.collection -> {
-                    val fragment = CollectionFragment()
-                    supportFragmentManager.beginTransaction()
-                        .replace(R.id.linear_layout_container, fragment, fragment.javaClass.simpleName)
-                        .commit()
+               R.id.collection -> {
+                    val intent = Intent(this, RewardsActivity2::class.java )
+                    startActivity(intent)
+//                    val fragment = CollectionFragment()
+//                    supportFragmentManager.beginTransaction()
+//                        .replace(R.id.linear_layout_container, fragment, fragment.javaClass.simpleName)
+//                        .commit()
                 }
 
             }

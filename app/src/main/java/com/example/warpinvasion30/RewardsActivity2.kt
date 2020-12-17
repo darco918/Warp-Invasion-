@@ -2,7 +2,6 @@ package com.example.warpinvasion30
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.appcompat.app.ActionBar
 import androidx.viewpager.widget.ViewPager
 import kotlinx.android.synthetic.main.activity_rewards2.*
 
@@ -47,9 +46,6 @@ class RewardsActivity2 : AppCompatActivity() {
         viewPagerRewards.adapter = myAdapter
 
         viewPagerRewards.setPadding(100,0,100,0)
-
-
-
     }
 
 }

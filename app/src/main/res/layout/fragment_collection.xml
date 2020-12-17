@@ -34,13 +34,13 @@
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="175dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/container_background">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/weaponsSkinsCardView"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_height="10dp"
             android:layout_marginStart="@dimen/marginButtonsFromCollection"
             android:layout_marginTop="@dimen/distanceButtonsFromCollection"
             android:layout_marginEnd="@dimen/marginButtonsFromCollection"
@@ -87,7 +87,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/characterSkinsCardView"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_height="10dp"
             android:layout_marginStart="@dimen/marginButtonsFromCollection"
             android:layout_marginTop="@dimen/distanceButtonsFromCollection"
             android:layout_marginEnd="@dimen/marginButtonsFromCollection"
@@ -133,7 +133,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/specialModesCardView"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_height="10dp"
             android:layout_marginStart="@dimen/marginButtonsFromCollection"
             android:layout_marginTop="@dimen/distanceButtonsFromCollection"
             android:layout_marginEnd="@dimen/marginButtonsFromCollection"
@@ -175,6 +175,11 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
 
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            app:layout_constraintTop_toBottomOf="@+id/characterSkinsCardView"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
