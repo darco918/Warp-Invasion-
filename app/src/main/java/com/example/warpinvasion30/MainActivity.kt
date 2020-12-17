@@ -14,13 +14,25 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        menu_bottom.setItemSelected(R.id.profile, true)
-        val fragmentFirst = ProfileFragment.newInstance()
-        val manager: FragmentManager = supportFragmentManager
-        val transaction: FragmentTransaction = manager.beginTransaction()
-        transaction.add(R.id.linear_layout_container, fragmentFirst)
-        transaction.commit()
+        val contor =intent.getIntExtra("id", 1)
+        if(contor == 1) {
 
+            menu_bottom.setItemSelected(R.id.profile, true)
+            val fragmentFirst = ProfileFragment.newInstance()
+            val manager: FragmentManager = supportFragmentManager
+            val transaction: FragmentTransaction = manager.beginTransaction()
+            transaction.add(R.id.linear_layout_container, fragmentFirst)
+            transaction.commit()
+        }
+
+        if(contor==2){
+            menu_bottom.setItemSelected(R.id.challenges, true)
+            val fragmentFirst = WeeklyChallengesFragment.newInstance()
+            val manager: FragmentManager = supportFragmentManager
+            val transaction: FragmentTransaction = manager.beginTransaction()
+            transaction.add(R.id.linear_layout_container, fragmentFirst)
+            transaction.commit()
+        }
 
         menu_bottom.setOnItemSelectedListener { id ->
 

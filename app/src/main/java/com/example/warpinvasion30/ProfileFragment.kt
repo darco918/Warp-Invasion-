@@ -30,7 +30,7 @@ class ProfileFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         settingsButton.setOnClickListener {
-            val intent = Intent (activity, RewardsActivity2::class.java)
+            val intent = Intent (activity, SettingsActivity::class.java)
             startActivity(intent)
         }
     }

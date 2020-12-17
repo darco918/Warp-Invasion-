@@ -17,6 +17,17 @@
         app:layout_constraintTop_toTopOf="parent"
         />
 
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:ci_width="5dp"
+        app:ci_height="5dp"
+        app:ci_drawable_unselected="@color/textColorLight"
+        android:background="@color/bottomNavigationBackground"
+        app:layout_constraintBottom_toTopOf="@id/menu_bottom2"
+        />
+
     <com.ismaeldivita.chipnavigation.ChipNavigationBar
         android:id="@+id/menu_bottom2"
         android:layout_width="match_parent"

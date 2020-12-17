@@ -3,10 +3,10 @@
     <color name="colorPrimary">#1F1F1F</color>
     <color name="colorPrimaryDark">#1F1F1F</color>
     <color name="colorAccent">#fff</color>
-    <color name="colorBackgroundPrimary">#0F0F10</color>
-    <color name="colorContainerBackground">#15151A</color>
+    <color name="colorBackgroundPrimary">#1A1B28</color>
+    <color name="colorContainerBackground">#12131F</color>
 
-    <color name="bottomNavigationBackground">#13131A</color>
+    <color name="bottomNavigationBackground">#0C0C13</color>
     <color name="unselectedIcon">#686868</color>
     <color name="colorIcons">#fff</color>
     <color name="backgroundColor">#000000</color>
@@ -20,4 +20,5 @@
     <color name="textColorDarker">#171717</color>
     <color name="green">#2C863A</color>
 
+    <color name="itemBackgroundDark">#080A13</color>
 </resources>

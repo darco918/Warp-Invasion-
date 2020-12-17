@@ -1,14 +1,14 @@
 package com.example.warpinvasion30
 
 import android.annotation.SuppressLint
-import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ListView
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.RecyclerView
+import kotlinx.android.synthetic.main.fragment_profile.*
 
 
 class WeaponsPageFragment : Fragment() {
@@ -23,6 +23,7 @@ class WeaponsPageFragment : Fragment() {
     @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
 
         var listview = view.findViewById<ListView>(R.id.weaponsListView)
 
