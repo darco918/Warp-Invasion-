@@ -9,11 +9,24 @@
 
     <androidx.viewpager.widget.ViewPager
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:id="@+id/viewPagerRewards"
         android:clipToPadding="false"
         android:overScrollMode="never"
+        app:layout_constraintBottom_toTopOf="@+id/menu_bottom2"
         app:layout_constraintTop_toTopOf="parent"
         />
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/menu_bottom2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/bottomNavigationBackground"
+        android:elevation="10dp"
+        android:gravity="center"
+        app:cnb_menuResource="@menu/menu_bottom"
+        app:cnb_textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
