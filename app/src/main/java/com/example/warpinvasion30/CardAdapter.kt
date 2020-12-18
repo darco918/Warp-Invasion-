@@ -64,8 +64,6 @@ class CardAdapter(private  val context:Context, private val myModelArrayList: Ar
             }
         }
 
-
-
 //        listView.setOnItemClickListener { context, view, position, id ->
 //            val element = listview.adapter.getItemAtPosition(position) // The item that was clicked
 //
@@ -139,13 +137,7 @@ class CardAdapter(private  val context:Context, private val myModelArrayList: Ar
 
     }
 
-    private fun showDialog(){
-        val dialog = MaterialDialog(context)
-            .noAutoDismiss()
-            .customView(R.layout.dialog_layout)
-        dialog.show( )
 
-    }
 
     override fun destroyItem(container: ViewGroup, position: Int, `object`: Any) {
         container.removeView(`object` as View)

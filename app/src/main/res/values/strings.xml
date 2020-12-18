@@ -24,5 +24,8 @@
     <string name="weapons_skins">Weapons Skins</string>
     <string name="character_skins">Character Skins</string>
     <string name="special_modes">Special Modes</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="equip_this_item">Equip this item?</string>
 
 </resources>
