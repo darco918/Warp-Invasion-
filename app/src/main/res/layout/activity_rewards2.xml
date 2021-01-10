@@ -24,7 +24,7 @@
         app:ci_width="5dp"
         app:ci_height="5dp"
         app:ci_drawable_unselected="@color/textColorLight"
-        android:background="@color/bottomNavigationBackground"
+        android:background="@color/indicatorBackground"
         app:layout_constraintBottom_toTopOf="@id/menu_bottom2"
         />
 

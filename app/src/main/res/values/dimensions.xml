@@ -4,7 +4,10 @@
     <dimen name="distanceButtonsFromCollection">55dp</dimen>
     <dimen name="marginButtonsFromCollection">20dp</dimen>
     <dimen name="marginStartIconCardview">10dp</dimen>
-    <dimen name="marginStartProfile">40dp</dimen>
+    <dimen name="marginStartProfile">30dp</dimen>
     <dimen name="marginStartChallengesCardview">15dp</dimen>
+    <dimen name="smallTextSize">18sp</dimen>
+    <dimen name="mediumTextSize">21sp</dimen>
+    <dimen name="smallGap">9dp</dimen>
 
 </resources>

@@ -4,11 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:elevation="3dp"
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:cardElevation="2dp"
         app:cardBackgroundColor="@color/colorBackgroundPrimary"
         app:cardCornerRadius="17dp">
 
@@ -48,7 +50,7 @@
                     android:gravity="center"
                     android:layout_marginTop="5dp"
                     android:text="Title"
-                    android:textColor="#000"
+                    android:textColor="@color/textColorWhite"
                     android:textSize="18dp"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
@@ -61,6 +63,7 @@
                     android:layout_marginStart="8dp"
                     android:ellipsize="end"
                     android:gravity="center"
+                    android:textColor="@color/textColorWhite"
                     android:textStyle="bold"
                     android:text="The description"
                     app:layout_constraintLeft_toLeftOf="parent"

@@ -2,10 +2,9 @@
     <string name="app_name">Warp Invasion 3.0</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="profile_image">profile image</string>
-    <string name="gamertag_name">Gamertag Name</string>
+    <string name="gamertag_name">Stefan ce Mare</string>
     <string name="level_14">Level 14</string>
     <string name="wp_logo">WP logo</string>
     <string name="log_in">Log In</string>

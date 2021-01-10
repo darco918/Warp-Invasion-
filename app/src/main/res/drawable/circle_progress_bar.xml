@@ -11,9 +11,8 @@
             android:angle="0"
             android:type="sweep"
             android:useLevel="false"
-            android:startColor="#DA60FF"
-            android:centerColor="#0051FF"
-            android:endColor="#DA60FF"
+            android:startColor="#ad0101"
+            android:endColor="#93291E"
             />
     </shape>
 </rotate>

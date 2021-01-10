@@ -28,7 +28,7 @@
         android:layout_marginBottom="150dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        android:textColor="@color/textColorLight"
+        android:textColor="@color/textColorWhite"
         android:background="@drawable/login_button_start_activity"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

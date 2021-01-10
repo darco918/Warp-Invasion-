@@ -17,7 +17,7 @@ import kotlinx.android.synthetic.main.fragment_weekly_challenges.*
 
 class WeeklyChallengesFragment : Fragment(){
 
-    val  values = arrayOf("one", "two" , "three", "four", "five" , "six", "seven", "eight", "nine", "ten")
+    val  values = arrayOf("Defeat 30 mummies", "Get a double kill" , "Shoot enemies from above", "Survive a one minute without shooting", "Reach wave no. 10" )
 
     private lateinit var recyclerView: RecyclerView
     private lateinit var manager: RecyclerView.LayoutManager

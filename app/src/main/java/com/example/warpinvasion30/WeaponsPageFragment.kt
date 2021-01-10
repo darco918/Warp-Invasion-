@@ -36,7 +36,7 @@ class WeaponsPageFragment : Fragment() {
         list.add(WeaponModel(
             "Butterfly Carbine", R.drawable.ic_sniper_rifle))
         list.add(WeaponModel(
-            "Jack Daniel's Barrel Shotgun", R.drawable.ic_sniper_rifle))
+            "Jack Daniel's Barrel", R.drawable.ic_sniper_rifle))
         list.add(WeaponModel(
             "FP6 Classic", R.drawable.ic_sniper_rifle))
         list.add(WeaponModel(

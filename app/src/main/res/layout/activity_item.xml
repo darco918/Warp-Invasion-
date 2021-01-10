@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".ItemActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Equip Item?"
+        android:textColor="@color/textColorLight"
+        android:textSize="45sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/weaponName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Name of the gun"
+        android:textColor="#000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/weaponIcon" />
+
+    <ImageView
+        android:id="@+id/weaponIcon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/ic_sniper_rifle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/cancel_button"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorWhite"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/confirm_button"
+        android:text="Confirm"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorWhite"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

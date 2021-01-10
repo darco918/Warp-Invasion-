@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         val contor =intent.getIntExtra("id", 1)
+      //  val gamertag = intent.getStringExtra("gamertag")
         if(contor == 1) {
 
             menu_bottom.setItemSelected(R.id.profile, true)

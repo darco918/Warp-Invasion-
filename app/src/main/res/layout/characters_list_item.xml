@@ -28,7 +28,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/characterImage"
         android:text="Assault Rifle"
-        android:textColor="#fafafa"
+        android:textColor="#000"
         android:layout_marginStart="5dp"
         android:textSize="17sp" />
 

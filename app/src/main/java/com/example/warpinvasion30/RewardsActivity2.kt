@@ -3,12 +3,16 @@ package com.example.warpinvasion30
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ListView
 import androidx.viewpager.widget.ViewPager
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.customview.customView
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_rewards.*
 import kotlinx.android.synthetic.main.activity_rewards2.*
+import kotlinx.android.synthetic.main.fragment_characters_page.*
+import kotlinx.android.synthetic.main.fragment_characters_page.view.*
+import kotlinx.android.synthetic.main.fragment_collection.view.*
 import me.relex.circleindicator.CircleIndicator
 
 private  lateinit var MyModelList: ArrayList<MyModel>
@@ -41,6 +45,10 @@ class RewardsActivity2 : AppCompatActivity() {
         })
 
 
+        //charactersListView.setOnItemClickListener(CharactersListviewAdapter,)
+
+
+
 
         //bottom navigation bar click listeners
         menu_bottom2.setItemSelected(R.id.collection, true)
@@ -51,12 +59,9 @@ class RewardsActivity2 : AppCompatActivity() {
                 R.id.profile -> {
                     val intent = Intent(this, MainActivity::class.java )
                     intent.putExtra("id",1)
-
                     startActivity(intent)
                 }
-
                 R.id.challenges -> {
-
                     val intent = Intent(this, MainActivity::class.java )
                     intent.putExtra("id",2)
                     startActivity(intent)
