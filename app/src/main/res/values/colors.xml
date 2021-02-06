@@ -1,25 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#1F1F1F</color>
-    <color name="colorPrimaryDark">#1F1F1F</color>
-    <color name="colorAccent">#ad0101</color>
-    <color name="colorBackgroundPrimary">#f1f1f1</color>
-    <color name="colorContainerBackground">#040404</color>
 
-    <color name="bottomNavigationBackground">#fafafa</color>
+    <color name="colorBackgroundPrimary">#27273E</color>
+    <color name="colorContainerBackground">#33334B</color>
+
+    <color name="bottomNavigationBackground">#202036</color>
     <color name="unselectedIcon">#000000</color>
-    <color name="colorIcons">#000000</color>
+    <color name="colorIcons">#fafafa</color>
     <color name="backgroundColor">#000000</color>
-    <color name="gradientColorOne">#ED213A</color>
-    <color name="gradientColorTwo">#93291E</color>
+    <color name="gradientColorOne">#9C42F5</color>
+    <color name="gradientColorTwo">#FF00AA</color>
     <color name="gradientTwoColorOne">#FF86C1</color>
     <color name="gradientTwoColorTwo">#FFE23E</color>
     <color name="cardBackgroundLight">#7C7C7C</color>
     <color name="recyclerItemBackground">#1B1B1B</color>
-    <color name="textColorLight">#585858</color>
-    <color name="textColorDarker">#171717</color>
+    <color name="textColorLight">#E0E0FF</color>
+    <color name="textColorDarker">#fff</color>
     <color name="green">#2C863A</color>
     <color name="indicatorBackground">#E0E0E0</color>
     <color name="textColorWhite">#f1f1f1</color>
     <color name="itemBackgroundDark">#fff</color>
+
+    <color name="colorPrimaryDark">#33334B</color>
+    <color name="navigationBarBackground">#202036</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBackground">#27273E</color>
+    <color name="colorPrimary">#313149</color>
+    <color name="colorSecondary">#33334B</color>
+    <color name="colorAccent1">#9C42F5</color>
+    <color name="colorAccent2">#5D2DE1</color>
+    <color name="colorAccent3">#FF00AA</color>
+    <color name="textLight">#E0E0FF</color>
+    <color name="textLight2">#fff</color>
+
 </resources>

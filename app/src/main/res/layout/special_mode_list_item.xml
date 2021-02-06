@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="60dp"
-    android:background="@drawable/weapons_item_list_background"
+    android:background="@color/colorPrimary"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center">
 
@@ -28,7 +28,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/weaponImage"
         android:text="Assault Rifle"
-        android:textColor="#7AD7C9"
+        android:textColor="@color/textLight2"
         android:layout_marginStart="20dp"
         android:textSize="17sp" />
 

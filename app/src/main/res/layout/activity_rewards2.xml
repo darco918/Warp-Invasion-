@@ -24,7 +24,7 @@
         app:ci_width="5dp"
         app:ci_height="5dp"
         app:ci_drawable_unselected="@color/textColorLight"
-        android:background="@color/indicatorBackground"
+        android:background="@color/colorPrimary"
         app:layout_constraintBottom_toTopOf="@id/menu_bottom2"
         />
 
@@ -36,7 +36,7 @@
         android:elevation="10dp"
         android:gravity="center"
         app:cnb_menuResource="@menu/menu_bottom"
-        app:cnb_textColor="@color/colorPrimary"
+        app:cnb_textColor="@color/textLight2"
         app:layout_constraintBottom_toBottomOf="parent" />
 
 
